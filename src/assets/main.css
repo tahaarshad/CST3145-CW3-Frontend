@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* Navbar design */
+.badge {
+  position: absolute;
+  margin-top: -0.2rem;
+  margin-left: -0.5rem;
+  padding: 0.2em 0.45em;
+}
+.disabled {
+  pointer-events: none;
+}
+.navbar {
+  background-color: #e9e9e9;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Search input design */
+.search {
+  overflow: hidden;
+  padding: 14px 16px;
+}
+.search h2 {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+.search p {
+  float: right;
+}
+.search label {
+  font-size: 20px;
+}
+/* Button design */
+.addButton {
+  background: #e9e9e9;
+  color: black;
+  border-radius: 10px;
+  padding: 7px 20px;
+}
+.submitButton {
+  background: #e9e9e9;
+  color: black;
+  border-radius: 10px;
+  padding: 7px 20px;
+}
+button[disabled] {
+  opacity: 0.5;
+}
+/* Form design */
+label {
+  font-weight: 700;
+}
+input[type="text"] {
+  width: 50%;
+  border-radius: 5px;
+}
+/* Card design */
+img {
+  width: 250px;
+  height: 250px;
+}
+.card {
+  margin-bottom: 20px;
+}
+span {
+  font-weight: 700;
+}
+/* Cart table design */
+table {
+  width: 100%;
+}
+.table-head {
+  text-align: left;
+}
+td {
+  text-align: left;
+  height: 50px;
+}
+th,
+td {
+  border-bottom: 1px solid #ddd;
+}
+.summary {
+  font-weight: bold;
+}
+.sum {
+  text-align: center;
+}
+.addMinus {
+  background: black;
+  color: white;
+  padding: 0;
+}
