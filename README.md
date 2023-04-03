@@ -2,37 +2,14 @@
 
 A fictitious web app for Middlesex University (CST3145) that allows students and their parents to look for after school classes and activities.
 
-## Installation
-For Backend:
- ```
-cd backend
- ```
- ```
-npm install
- ```
-For Frontend:
- ```
-cd alilm
- ```
- ```
-npm install
- ```
+## Backend
+**Repository:**
+<https://github.com/tahaarshad/CST3145-CW3-Backend>
+**Heroku Link:**
+<https://alilm-backend.herokuapp.com/>
 
-## Usage
-For Backend:
- ```
-cd backend
- ```
- ```
-node app.js
- ```
-
-For alilm:
- ```
-cd alilm
- ```
- ```
-npm run dev
- ```
-
-## Links
+## Frontend
+**Repository:**
+<https://github.com/tahaarshad/CST3145-CW3-Frontend>
+**Github Pages Link:**
+<https://tahaarshad.github.io/CST3145-CW3-Frontend/>
