@@ -39,7 +39,7 @@
             <div editable="rich">
               <p class="lead">
                 Below are a list of activities taking place after school timings
-                for students to expand their skills and knowledge
+                for students to expand their skills and knowledge. Confirm spaces now.
               </p>
             </div>
           </div>
@@ -110,7 +110,7 @@
           </div>
           <div class="lc-block mb-5">
             <div editable="rich">
-              <p class="lead">Please review you cart and confirm booking</p>
+              <p class="lead">Please review you cart and confirm booking.</p>
             </div>
           </div>
         </div>
@@ -133,7 +133,6 @@
           <strong>Phone:</strong>
           <input v-model.number="phone" />
         </p>
-        <!-- data-bs-toggle="modal" data-bs-target="#confirmSeats"  -->
         <button
           class="submitButton"
           v-if="enableSubmit"
@@ -187,6 +186,7 @@
 </template>
 
 <script>
+
 import LessonList from "./components/Lessons.vue";
 import CartList from "./components/Checkout.vue";
 
@@ -208,6 +208,7 @@ export default {
     };
   },
   created: function () {
+    //Fetches lesson from MongoDB
     console.log("requesting data from server...");
 
     fetch("https://alilm-backend.herokuapp.com/collection/lessons").then((response) => {
@@ -274,6 +275,7 @@ export default {
       this.name = "";
       this.phone = "";
     },
+    // Checks if the lesson already exists in cart
     getCartItem(lesson) {
       for (let i = 0; i < this.cart.length; i++) {
         if (this.cart[i].id === lesson._id) {

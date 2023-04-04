@@ -33,7 +33,7 @@
     </tbody>
     <tfoot>
       <tr class="summary">
-        <td class="sum" colspan="3">Sum:</td>
+        <td class="sum" colspan="3">Total:</td>
         <td>{{ subTotal }}</td>
       </tr>
     </tfoot>
