@@ -94,6 +94,7 @@
       <!--Lessons-->
       <div class="container">
         <div class="row">
+          <!--Lesson Component-->
           <LessonList @addToCart="addLesson" :lessons="lessons" />
         </div>
       </div>
@@ -116,6 +117,7 @@
         </div>
 
         <!--Cart-->
+        <!--Cart Component-->
         <CartList
           @removeSpace="delSpace"
           @removeItem="delItem"
