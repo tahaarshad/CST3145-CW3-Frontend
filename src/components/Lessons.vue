@@ -1,3 +1,4 @@
+<!--Commponent for displaying lessons-->
 <template>
   <div v-for="lesson in lessons" :key="lesson._id" class="col-md-3">
     <div class="card">
@@ -32,6 +33,7 @@
 export default {
   name: "LessonList",
   props: ["lessons"],
+  //Added to prevent warning
   emits: ["addToCart"],
   data() {
     return {};

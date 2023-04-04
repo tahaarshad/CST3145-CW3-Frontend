@@ -1,3 +1,4 @@
+<!--Commponent for displaying cart items-->
 <template>
   <h3>Cart</h3>
   <table>
@@ -43,6 +44,7 @@
 export default {
   name: "CartList",
   props: ["cart"],
+  //Added to prevent warning
   emits: ["removeSpace", "removeItem", "addSpace"],
   data() {
     return {};
