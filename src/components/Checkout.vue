@@ -50,12 +50,15 @@ export default {
     return {};
   },
   methods: {
+    // Removes space from cart item
     removeSpace(item) {
       this.$emit("removeSpace", item);
     },
+    // Removes whole cart item
     removeItem(item) {
       this.$emit("removeItem", item);
     },
+    // Adds space to the cart item
     addSpace(item) {
       this.$emit("addSpace", item);
     },

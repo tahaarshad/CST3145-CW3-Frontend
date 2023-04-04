@@ -38,6 +38,7 @@ export default {
   data() {
     return {};
   },
+  // Adds item to cart
   methods: {
     addToCart(lesson) {
       this.$emit("addToCart", lesson);
