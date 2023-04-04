@@ -144,7 +144,7 @@
         </button>
         <button class="submitButton" disabled v-else>Checkout</button>
       </div>
-      <!--Confirmation Dialog-->
+      <!--Confirmation Dialog. Triggered when spaces are booked-->
       <div
         class="modal fade"
         id="confirmSeats"
