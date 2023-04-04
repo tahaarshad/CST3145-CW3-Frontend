@@ -232,12 +232,7 @@ export default {
           "Content-type": "application/json; charset=UTF-8",
         },
       });
-      // .then(response => response.json())
-      // .then(json_response => {
-      //     console.log(json_response)
-      //     // this.update()
-      // })
-      // .catch(err => console.log(err))
+
       this.update();
     },
     // Updates records
